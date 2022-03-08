@@ -76,15 +76,6 @@ If the log of emails represents 3% of the emails we sent over this period, how m
 1. Plot two lines on a single graph. 
     - total distinct users who were sent at least 1 email by month and year.
     - the monthly percentage of users who were sent an email and were active the same day
-1. All the emails we send contain at least one link users can click which should send them to the FieldLevel app (where they would login and become active for that day).
-The team is curious if any of the links are broken.
-A broken link would be indicated by a record of email sent and clicked but no record of user activity on the day of the click.
-Estimate how many emails (by EmailCampaignId) may have broken links.
-If you find an EmailCampaignId that has possible broken links, estimate an upper bound for the number of users it has effected and the probability a user who gets email from us has experienced a broken link multiple times.
-For your answer, write a paragraph using clear language that non-technical members of the team will understand.
-1. The team's product manager is thinking we may be sending too much email. 
-Is there a campaign that we should consider no longer sending? (e.g. its performance has never been good).
-When looking at performance of the emails does time matter or do they perform consistently over time?
 1. Almost every email that we send has a 'call to action' button that sends users to the FieldLevel app.
 The team wants to experiment with the way the 'call to action' buttons are designed.
 They have a new design that they think will encourage more people to click on the button.
